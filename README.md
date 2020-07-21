@@ -117,3 +117,31 @@ Um lugar publico padrão para armazenar estas imagens, podendo compartilhar faze
 O [Docker Hub](https://hub.docker.com/) é o registro publico padrão para imagens Docker.
 
 
+### Um breve Resumo antes da Prática e dos Estudos
+
+Quando executamos nosso ```sudo docker run hello-world``` o que aconteceu foi:
+
+1. O **Docker Client** informa ao daemon que queremos executar um contêiner usando a *imagem* hello-world.
+2. O **Docker Daemon** extrai a versão mais recente desta imagem do Registro.
+3. Cria um contêiner a partir desta imagem.
+4. Executa o contêiner que acabamos de criar.
+
+### Manipulando Contêiner
+
+Até aqui, temos os conceitos basicos sobre Docker, Imagem, Contêiner, Registros, também sua Arquitetura e Comportamento.
+
+Para facilitar e dividir os estudos em modulos, vou tratrar cada assunto em um README individual. 
+
+Fique a vontade para sugerir formas diferentes de organização nas issues deste repositorio.
+
+Nos vemos nos proximos arquivos.
+um abraço.
+
+
+### Créditos
+ * [Docker - Site Oficial](https://www.docker.com/)
+ * [Docker - Documentação](https://www.docker.com/get-started)
+ * [Farhan Hasin Chowdhury](https://github.com/fhsinchy)
+ * [Repositorio Github](https://github.com/fhsinchy/docker-handbook-projects)
+ * [Curso](https://www.freecodecamp.org/news/the-docker-handbook/)
+ 
