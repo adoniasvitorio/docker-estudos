@@ -1,3 +1,7 @@
+<h1 align="center">
+<img src="https://avatars0.githubusercontent.com/u/7739233?v=4" width="250" alt="@docker-library">
+</h1>
+
 ## Sobre o repositorio.
 
 Este repositorio aborda conceitos e praticas de docker que adiquiri durante meus estudos com essa tecnologia.
