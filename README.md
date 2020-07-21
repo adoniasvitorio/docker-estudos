@@ -95,6 +95,25 @@ sudo usermod -aG docker $USER
 >*Estes passos foram feitos durante a realização deste estudo*, baseado na documentação do [fedoramagazine.org](https://fedoramagazine.org/docker-and-fedora-32/)
 
 
+### Um pouco sobre a arquitetura Docker
 
+Docker utiliza arquitetura *client-server* que é separada em três componentes Principais.
+
+ * **Docker Daemon:** Aplicativo de execução que fica em segundo plano ouvindo os comandos executados. Ele gerencia imagens, contêineres, redes e volumes.
+ * **Docker Client:** Este é um CLI acessivel pelo docker. Este é responsavel por enviar os comandos executados para o *Docker Daemon*.
+ * **API** API é responsavel por fazer a comunicação entre o daemon e o client, utiliza uma *API REST* sobre *UNIX Sockets* ou interfaces de rede.
+ 
+ ### Imagens e Contêineres.
+ 
+ **Imagens** São arquivos com instruções nescessarias para criar *contêineres*. Imagens podem ser Trocadas a partir do registro, podemos usar imagens criada por outras pessoas, e modifica-las adicionando novas instruções se assim desejar-mos.
+ 
+ **Contêiner** são instancias executáveis de uma *imagem*. Ou seja, quando executamos a imagem *hello-world*, na verdade estamos criando um ambiente isolado para executar o programa incluído na imagem.
+
+### Registries (Registros)
+**Registries** estão para imagens Docker como o Github esta para nossos codigos. 
+
+Um lugar publico padrão para armazenar estas imagens, podendo compartilhar fazer upload, obter copias, etc.
+
+O [Docker Hub](https://hub.docker.com/) é o registro publico padrão para imagens Docker.
 
 
