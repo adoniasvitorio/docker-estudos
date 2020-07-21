@@ -41,7 +41,7 @@ sudo firewall-cmd --permanent --zone=FedoraWorkstation --add-masquerade
 ~~~
 4. Utilize Moby
 
-Poupe algum transtorno no inicio de sua carreira com Docker. 
+>*Poupe-se de alguns transtornos no inicio de sua carreira com Docker (palavras minhas)*. 
 
 [Moby](https://mobyproject.org/) é a versão de código aberto aceito pelo Docker. Está incluído no repositório principal do Fedora, o que facilita a instalação.
 
