@@ -10,5 +10,5 @@ Com ele um tambem poderemos iniciar um contêiner mas atenção, existe diferen�
 ```start``` usaremos este comando sempre que efetivamente quisermos iniciar um contêiner.
 ```restart``` usando este comando temos 02 possiveis atividades.
 
-1. Quando usarmos ```restart``` em um contêiner parado, então este contêiner sera iniciado.
-2. Quando usarmor ```restart``` em um conteiner em execução, este comando irá matar o contêiner e depois inicia-lo novamente.
+1. Quando usamos ```restart``` em um contêiner parado, então este contêiner sera iniciado.
+2. Quando usamos ```restart``` em um conteiner em execução, este comando irá matar o contêiner e depois inicia-lo novamente.
